@@ -9,11 +9,15 @@ Not really different as I was using the pom breaks from the beginning. This ques
 Didn't really notice anything in particular. It helped to walk away when I was stumped by something. When I walked away and came back I figured out what I was doing wrong in a couple of minutes.
 
 1. In your own words, what is a Class?
-A class is a collection different things (variables, object, method, and data) that work together.
+
+- A class is a collection different things (variables, object, method, and data) that work together.
 1. What is an attribute of a Class?
-a specific property of an object.
+
+- A specific property of an object.
 1. What is behavior of a Class?
-A function or subroutine that change how it behaves.  
+
+- A function or subroutine that change how it behaves.  
+
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
 ```ruby
