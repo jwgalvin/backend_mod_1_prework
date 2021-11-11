@@ -13,7 +13,7 @@ class Person
     @tired = false
   end
 
-  def play_games
+  def play
     puts "Let's play a game"
     @tired = true
   end
@@ -32,7 +32,7 @@ joe = Person.new("Joe", 165)
 
 puts joe.name
 puts joe.status
-puts joe.play_games
+puts joe.play
 puts joe.status
 puts joe.talk
 puts joe.status

@@ -15,11 +15,13 @@
   *  An integer is a whole number.  A float is a number with a decimal. Floats are more precise.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-  * ```ruby
+  *
+  ```ruby
     animal = "zebra"
     ```
 
 1. How would you print the string `"zebra"` using the variable that you created above?
+*
   ```ruby
     animal = "zebra"
     p animal
