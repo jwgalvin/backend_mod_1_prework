@@ -16,7 +16,9 @@ def build_a_bear(name, age, fur, clothes, special_power)  # declares the method 
     'sayings' => [greeting, power_saying, "Goodnight my friend!"],  # adds the static and dynamic sayings to the method.
     'is_cuddly' => true,  # makes a boolean descriptor that could be referred to in a later version, but does nothing at this time.
   }
+
   return built_bear    # unnecessary as ruby uses implicit returns
+
 end
 
 build_a_bear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')  # creates a bear named fluffy that is 4, has brown fur, wears pants, jorts and a tanktop that has the superpower of giving you nightmares.
