@@ -160,25 +160,25 @@ pp scary_monster
 # - Create 2 instances of your SuperHero class
 class Superhero
   attr_accessor :name, :super_power, :age, :arch_nemesis, :power_level, :energy_level
-  def initialize(n, sp, age)
-    @name = n
-    @super_power = sp
+  def initialize(name, super_power, age)
+    @name = name
+    @super_power = super_power
     @age = age
     @arch_nemesis = "The Syntax Error"
     @power_level = 100
     @energy_level = 50
   end
 
-  def set_super(newSuper)
-    @super_power = newSuper
+  def set_super(new_super)
+    @super_power = new_super
   end
 
-  def set_name(newName)
-    @name = newName
+  def set_name(new_name)
+    @name = new_name
   end
 
-  def set_age(newAge)
-    @age = newAge
+  def set_age(new_age)
+    @age = new_age
   end
 
   def say_name
@@ -189,8 +189,8 @@ class Superhero
     @power_level = 1000
   end
 
-  def gain_power(newPower)
-    @power_level += newPower
+  def gain_power(new_power)
+    @power_level += new_power
   end
 end
 
